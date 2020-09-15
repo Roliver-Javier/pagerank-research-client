@@ -1,0 +1,7 @@
+export const SET_THEME = 'SET_THEME';
+export const SET_TOGGLE_CHECKED = 'SET_TOGGLE_CHECKED';
+export const GET_COLOR_BY_INDEX = 'GET_COLOR_BY_INDEX';
+export const FIND_METRICS = 'FIND_METRICS';
+export const SET_KEYWORDS = 'SET_KEYWORDS';
+export const CLEAR_METRICS = 'CLEAR_METRICS';
+export const LOADING = 'LOADING';

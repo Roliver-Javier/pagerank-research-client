@@ -1,0 +1,19 @@
+.tooltip__customTooltip {
+  background-color: #fff !important;
+  padding: 15px;
+  border-radius: 10px;
+  color: #666 !important;
+  .tooltip__title {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+  }
+  .tooltip__label {
+    font-size: 10px;
+    text-transform: capitalize;
+  }
+  .tooltip__intro {
+    padding: 0;
+    text-transform: capitalize;
+  }
+}

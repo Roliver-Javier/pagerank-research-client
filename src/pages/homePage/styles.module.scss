@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  .graphArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .topContent {
+    display: flex;
+
+    & > * {
+      padding: 10px;
+    }
+  }
+  .bottomContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    .buttonGroup {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      & > * {
+        margin-right: 10px;
+      }
+      button[disabled] {
+        background-color: #ddd;
+        color: #666;
+      }
+    }
+  }
+
+  .mainContent {
+    padding: 50px;
+  }
+}

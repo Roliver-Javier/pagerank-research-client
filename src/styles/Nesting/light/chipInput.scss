@@ -1,0 +1,13 @@
+.MuiFormControl-root {
+  .MuiFormLabel-root,
+  .MuiInputBase-root {
+    color: black;
+  }
+  .MuiInput-root {
+    border-bottom: 1px solid #fff;
+  }
+  .MuiChip-root {
+    background-color: red;
+    color: #fff;
+  }
+}
